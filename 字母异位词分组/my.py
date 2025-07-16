@@ -1,3 +1,4 @@
+# 不用排序就可以
 class Solution(object):
     def groupAnagrams(self, strs):
         """
