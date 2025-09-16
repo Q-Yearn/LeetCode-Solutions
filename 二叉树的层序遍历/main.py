@@ -11,6 +11,7 @@ class Solution(object):
             return
         if len(result) < level:
             result.append([])
+        # 这里中序和先序都可以
         result[level-1].append(root.val)
         self.levelhelper(root.left, result, level+1)
         self.levelhelper(root.right, result, level+1)
