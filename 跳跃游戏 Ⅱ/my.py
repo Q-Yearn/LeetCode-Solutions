@@ -1,4 +1,4 @@
-# dp
+# 动态规划
 class Solution(object):
     def jump(self, nums):
         """
