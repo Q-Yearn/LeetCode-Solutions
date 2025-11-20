@@ -1,4 +1,4 @@
-# 贪心
+# 贪心算法
 class Solution(object):
     def jump(self, nums):
         """
