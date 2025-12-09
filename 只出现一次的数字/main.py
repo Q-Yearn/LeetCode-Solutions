@@ -1,4 +1,4 @@
-# 异或运算
+# 异或XOR运算
 class Solution(object):
     def singleNumber(self, nums):
         """
