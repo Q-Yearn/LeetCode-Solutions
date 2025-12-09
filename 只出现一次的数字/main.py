@@ -1,0 +1,11 @@
+# 异或运算
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        ans = 0
+        for num in nums:
+            ans ^= num
+        return ans
