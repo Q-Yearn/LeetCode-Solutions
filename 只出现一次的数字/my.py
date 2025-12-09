@@ -13,7 +13,7 @@ class Solution(object):
         for num in tmp:
             return num
 
-# 没必要下标
+# 不需要下标，使用集合即可
 class Solution(object):
     def singleNumber(self, nums):
         """
