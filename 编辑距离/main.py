@@ -8,10 +8,10 @@ class Solution(object):
         m = len(word1)
         n = len(word2)
         dp = [[0 for _ in range(n+1)] for _ in range(m+1)]
-        #删除所有
+        #删除
         for i in range(m+1):
             dp[i][0] = i
-        # 插入所有
+        # 插入
         for j in range(n+1):
             dp[0][j] = j
         for i in range(1, m+1):
